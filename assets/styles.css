@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: right;
+}
+
+nav ul li {
+  margin: 0 25px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+section {
+  padding: 20px;
+}
+
+#home {
+  background-image: url(./image/intro.png);
+  background-size: cover;
+  padding: 50px 20px;
+  height: 60vh;
+  align-items: center;
+}
+
+.title {
+  text-align: left;
+  margin: 0 20px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 2.2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.content {
+  width: 75%;
+  text-align: left;
+  margin: 10px 20px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+
+#projects {
+  background-color: #333;
+  color: #ffffff;
+}
+
+#projects > h2 {
+  font-size: 2rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.project {
+  background: #e0e0e0;
+  text-align: center;
+}
+
+.project img {
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+}
+
+#contact {
+  background: black;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form label {
+  margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#about {
+  background-color: #333;
+}
+
+.about {
+  display: flex;
+}
+
+.about img {
+  width: 200px;
+  height: 200px;
+  border: 3px white dotted;
+  border-radius: 5px;
+}
+
+.text {
+  font-weight: bold;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  bottom: 0;
+}
